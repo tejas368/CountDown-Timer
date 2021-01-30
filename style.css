@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url("./Standard-Jungle-Hd\,-Hd-Wallpapers-and-backgrounds-Download-.jpg");
+    background-position: center center;     /*it maintains the positon of background image to keep it in center*/
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 100vh;     /* image resizing */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.section {
+  width: 70rem;
+  height: 40rem;
+  background-color: black;
+  margin: 10rem;
+  padding: 5rem 10rem;
+  opacity: 0.8;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+  color: yellow;
+  border-bottom: 0.1rem solid whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.countdown-container {
+  display: flex;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el{
+   text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
